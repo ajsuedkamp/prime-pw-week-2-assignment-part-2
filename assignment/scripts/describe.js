@@ -26,9 +26,10 @@ if (number >= 2) {
 
 
 // 1. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
+// We make a variable called name and set it equal to the string Dane. 
+// Then we use a conditional statement to check if the name variable is equal to the string Mary.  
+// Since the string in the if statement do NOT equal our variable, the statement evaluates to false and
+// we run the else block of code so we console.log 'How do you do?'
 //
 
 //CODE
@@ -45,11 +46,14 @@ if (name === 'Mary') {
 */
 
 // 2. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
-
+// We create 2 variables. The first variable is secrect and that is left undefined.
+// The second variable is code and that is set equal 123. 
+// We are now going to check our two variables against 2 conditions.  The first condition checks if the code variable is 
+// equal to 123. Since the code variable is equal to 123, the secrect variable is set to the string 'super' and
+// the code variable is mutiplied by 2.  So our secret varibale is now 'super' and our code variable is 246.
+// The second conditon we must check is if our code variable is greater than 250.  Since our code variable is
+// 246, 246 is not greater than 250 so our secrect variable will remain at 'super. 
+// So then we console.log our seceret variable which is 'super'.
 //CODE
 /*
 let secret;
