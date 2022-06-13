@@ -74,11 +74,14 @@ console.log(secret)
 */
 
 // 3. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
-
+// We have 3 variables describing a student. The first variable is a boolean that is true establishing this 
+// person is a student. The second variable sets the age of the student at 34. And the third variable indicates
+// what zip code this student is in.  Now we logic operators to check some conditions.  The first condition
+// is asking if the isStudent variable is true AND the zip varibale is greater than 80000.  Since both statements
+// must evaluate to true and the zip is LESS than 80000, we move on to the next condition. The next condition
+// checks if isStudent is false OR the age is LESS than 30. Since neither of these statements evaluate to 
+// true, we move on to the next condition. This condition only checks if the isStudent variable is true and 
+// since isStudent evaluates to true we console.log 'Welcome to Prime!'
 //CODE
 /*
 let isStudent = true;
@@ -141,6 +144,7 @@ let mix = true;
 if (mix === true) {
   colorOne = 'purple';
 }
+//FIX - Changing colorTwo to purple is missing.  colorTwo = 'purple in the if statement
 */
 
 //5. We start with two variables -- temp is set to 40 and time is set to 4.
