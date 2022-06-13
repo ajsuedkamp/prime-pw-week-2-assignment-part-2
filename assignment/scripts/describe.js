@@ -144,7 +144,7 @@ let mix = true;
 if (mix === true) {
   colorOne = 'purple';
 }
-//FIX - Changing colorTwo to purple is missing.  colorTwo = 'purple in the if statement
+//FIX - Changing colorTwo to purple is missing.  colorTwo = 'purple' should be in the if statement
 */
 
 //5. We start with two variables -- temp is set to 40 and time is set to 4.
@@ -158,6 +158,8 @@ const time = 4;
 if (temp > 39 || time >= 4) {
   console.log('throw away the food!');
 }
+// FIX - the wrong logic operator is used in the if statement. It is checking if the temp is greater than 39 
+// or the time is greater than or equal to 4.  It should be && to check if both statements are true. 
 */
 
 //6. We start with two variables -- age is set to 21 and minAge is set to 21.
@@ -173,5 +175,7 @@ if(minAge <= age) {
 } else {
   console.log('enter');
 }
+// FIX The if statement should NOT include = the way it is written.  The current statement will console.log 
+// 'no entry' because minAge is equal to age. The correct way to write it would be if(minAge < age).
 */
 
